@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: fd871bd4854afc7428eb6ee0318adaf3
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - pistolPrefab: {fileID: 1826928501786218791, guid: 22bdef987a53d9347aa39cdde9677e0a,
+      type: 3}
+  - grenadePrefab: {fileID: 912307120303201376, guid: 1ce33b3ac86fc7c49818790ddc88c70f,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

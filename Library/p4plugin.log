@@ -1,0 +1,149 @@
+p1:-1 1 Change 125 created with 1 open file(s).
+p1:-1 1 Submitting change 125.
+p1:-1 1 Locking 1 files ...
+p1:-1 1 edit //streamsDepot/leo_build/ProjectSettings/TagManager.asset#2
+p1:-1 1 Change 125 submitted.
+p1:-1 0 Change 135 created with 2 open file(s).
+p1:-1 0 Submitting change 135.
+p1:-1 0 Locking 2 files ...
+p1:-1 0 edit //streamsDepot/leo_build/Assets/Prefabs/first aid.prefab#2
+p1:-1 0 edit //streamsDepot/leo_build/Assets/Prefabs/first aid.prefab.meta#2
+p1:-1 0 Change 135 submitted.
+p1:-1 0 Change 146 created.
+p1:-1 0 opened and not being changed
+/Users/leozhang/Perforce/leozhang1_Leos-MacBook-Pro_leo_build_6370/Assets/Resources.meta - file(s) not on client.
+
+w1:/Users/leozhang/Perforce/leozhang1_Leos-MacBook-Pro_leo_build_6370/Assets/Resources.meta - file(s) not on client.\n
+/Users/leozhang/Perforce/leozhang1_Leos-MacBook-Pro_leo_build_6370/Assets/Prefabs/UI.meta - file(s) not on client.
+
+w1:/Users/leozhang/Perforce/leozhang1_Leos-MacBook-Pro_leo_build_6370/Assets/Prefabs/UI.meta - file(s) not on client.\n
+/Users/leozhang/Perforce/leozhang1_Leos-MacBook-Pro_leo_build_6370/Assets/Resources/UI.meta - file(s) not on client.
+
+w1:/Users/leozhang/Perforce/leozhang1_Leos-MacBook-Pro_leo_build_6370/Assets/Resources/UI.meta - file(s) not on client.\n
+/Users/leozhang/Perforce/leozhang1_Leos-MacBook-Pro_leo_build_6370/Assets/Scripts/UIManager.cs.meta - file(s) not on client.
+
+w1:/Users/leozhang/Perforce/leozhang1_Leos-MacBook-Pro_leo_build_6370/Assets/Scripts/UIManager.cs.meta - file(s) not on client.\n
+/Users/leozhang/Perforce/leozhang1_Leos-MacBook-Pro_leo_build_6370/Assets/Resources/Desperate Escape.png.meta - file(s) not on client.
+
+/Users/leozhang/Perforce/leozhang1_Leos-MacBook-Pro_leo_build_6370/Assets/Resources/Desperate Escape.png - file(s) not on client.
+
+/Users/leozhang/Perforce/leozhang1_Leos-MacBook-Pro_leo_build_6370/Assets/Resources/Desperate Escape.png.meta - file(s) not opened on this client.
+
+/Users/leozhang/Perforce/leozhang1_Leos-MacBook-Pro_leo_build_6370/Assets/Resources/Desperate Escape.png - file(s) not opened on this client.
+
+w1:/Users/leozhang/Perforce/leozhang1_Leos-MacBook-Pro_leo_build_6370/Assets/Resources/Desperate Escape.png - file(s) not on client.\n
+w1:/Users/leozhang/Perforce/leozhang1_Leos-MacBook-Pro_leo_build_6370/Assets/Resources/Desperate Escape.png - file(s) not opened on this client.\n
+w1:/Users/leozhang/Perforce/leozhang1_Leos-MacBook-Pro_leo_build_6370/Assets/Resources/Desperate Escape.png.meta - file(s) not on client.\n
+w1:/Users/leozhang/Perforce/leozhang1_Leos-MacBook-Pro_leo_build_6370/Assets/Resources/Desperate Escape.png.meta - file(s) not opened on this client.\n
+/Users/leozhang/Perforce/leozhang1_Leos-MacBook-Pro_leo_build_6370/Assets/Resources/Exit.png.meta - file(s) not on client.
+
+/Users/leozhang/Perforce/leozhang1_Leos-MacBook-Pro_leo_build_6370/Assets/Resources/Exit.png - file(s) not on client.
+
+/Users/leozhang/Perforce/leozhang1_Leos-MacBook-Pro_leo_build_6370/Assets/Resources/Exit.png.meta - file(s) not opened on this client.
+
+/Users/leozhang/Perforce/leozhang1_Leos-MacBook-Pro_leo_build_6370/Assets/Resources/Exit.png - file(s) not opened on this client.
+
+w1:/Users/leozhang/Perforce/leozhang1_Leos-MacBook-Pro_leo_build_6370/Assets/Resources/Exit.png - file(s) not on client.\n
+w1:/Users/leozhang/Perforce/leozhang1_Leos-MacBook-Pro_leo_build_6370/Assets/Resources/Exit.png - file(s) not opened on this client.\n
+w1:/Users/leozhang/Perforce/leozhang1_Leos-MacBook-Pro_leo_build_6370/Assets/Resources/Exit.png.meta - file(s) not on client.\n
+w1:/Users/leozhang/Perforce/leozhang1_Leos-MacBook-Pro_leo_build_6370/Assets/Resources/Exit.png.meta - file(s) not opened on this client.\n
+/Users/leozhang/Perforce/leozhang1_Leos-MacBook-Pro_leo_build_6370/Assets/Resources/HowToPlay.png.meta - file(s) not on client.
+
+/Users/leozhang/Perforce/leozhang1_Leos-MacBook-Pro_leo_build_6370/Assets/Resources/HowToPlay.png - file(s) not on client.
+
+/Users/leozhang/Perforce/leozhang1_Leos-MacBook-Pro_leo_build_6370/Assets/Resources/HowToPlay.png.meta - file(s) not opened on this client.
+
+/Users/leozhang/Perforce/leozhang1_Leos-MacBook-Pro_leo_build_6370/Assets/Resources/HowToPlay.png - file(s) not opened on this client.
+
+w1:/Users/leozhang/Perforce/leozhang1_Leos-MacBook-Pro_leo_build_6370/Assets/Resources/HowToPlay.png - file(s) not on client.\n
+w1:/Users/leozhang/Perforce/leozhang1_Leos-MacBook-Pro_leo_build_6370/Assets/Resources/HowToPlay.png - file(s) not opened on this client.\n
+w1:/Users/leozhang/Perforce/leozhang1_Leos-MacBook-Pro_leo_build_6370/Assets/Resources/HowToPlay.png.meta - file(s) not on client.\n
+w1:/Users/leozhang/Perforce/leozhang1_Leos-MacBook-Pro_leo_build_6370/Assets/Resources/HowToPlay.png.meta - file(s) not opened on this client.\n
+/Users/leozhang/Perforce/leozhang1_Leos-MacBook-Pro_leo_build_6370/Assets/Resources/Play.png.meta - file(s) not on client.
+
+/Users/leozhang/Perforce/leozhang1_Leos-MacBook-Pro_leo_build_6370/Assets/Resources/Play.png - file(s) not on client.
+
+/Users/leozhang/Perforce/leozhang1_Leos-MacBook-Pro_leo_build_6370/Assets/Resources/Play.png.meta - file(s) not opened on this client.
+
+/Users/leozhang/Perforce/leozhang1_Leos-MacBook-Pro_leo_build_6370/Assets/Resources/Play.png - file(s) not opened on this client.
+
+w1:/Users/leozhang/Perforce/leozhang1_Leos-MacBook-Pro_leo_build_6370/Assets/Resources/Play.png - file(s) not on client.\n
+w1:/Users/leozhang/Perforce/leozhang1_Leos-MacBook-Pro_leo_build_6370/Assets/Resources/Play.png - file(s) not opened on this client.\n
+w1:/Users/leozhang/Perforce/leozhang1_Leos-MacBook-Pro_leo_build_6370/Assets/Resources/Play.png.meta - file(s) not on client.\n
+w1:/Users/leozhang/Perforce/leozhang1_Leos-MacBook-Pro_leo_build_6370/Assets/Resources/Play.png.meta - file(s) not opened on this client.\n
+/Users/leozhang/Perforce/leozhang1_Leos-MacBook-Pro_leo_build_6370/Assets/Resources/background.jpg.meta - file(s) not on client.
+
+/Users/leozhang/Perforce/leozhang1_Leos-MacBook-Pro_leo_build_6370/Assets/Resources/background.jpg - file(s) not on client.
+
+/Users/leozhang/Perforce/leozhang1_Leos-MacBook-Pro_leo_build_6370/Assets/Resources/background.jpg.meta - file(s) not opened on this client.
+
+/Users/leozhang/Perforce/leozhang1_Leos-MacBook-Pro_leo_build_6370/Assets/Resources/background.jpg - file(s) not opened on this client.
+
+w1:/Users/leozhang/Perforce/leozhang1_Leos-MacBook-Pro_leo_build_6370/Assets/Resources/background.jpg - file(s) not on client.\n
+w1:/Users/leozhang/Perforce/leozhang1_Leos-MacBook-Pro_leo_build_6370/Assets/Resources/background.jpg - file(s) not opened on this client.\n
+w1:/Users/leozhang/Perforce/leozhang1_Leos-MacBook-Pro_leo_build_6370/Assets/Resources/background.jpg.meta - file(s) not on client.\n
+w1:/Users/leozhang/Perforce/leozhang1_Leos-MacBook-Pro_leo_build_6370/Assets/Resources/background.jpg.meta - file(s) not opened on this client.\n
+/Users/leozhang/Perforce/leozhang1_Leos-MacBook-Pro_leo_build_6370/Assets/Resources/first aid.png.meta - file(s) not on client.
+
+/Users/leozhang/Perforce/leozhang1_Leos-MacBook-Pro_leo_build_6370/Assets/Resources/first aid.png - file(s) not on client.
+
+/Users/leozhang/Perforce/leozhang1_Leos-MacBook-Pro_leo_build_6370/Assets/Resources/first aid.png.meta - file(s) not opened on this client.
+
+/Users/leozhang/Perforce/leozhang1_Leos-MacBook-Pro_leo_build_6370/Assets/Resources/first aid.png - file(s) not opened on this client.
+
+w1:/Users/leozhang/Perforce/leozhang1_Leos-MacBook-Pro_leo_build_6370/Assets/Resources/first aid.png - file(s) not on client.\n
+w1:/Users/leozhang/Perforce/leozhang1_Leos-MacBook-Pro_leo_build_6370/Assets/Resources/first aid.png - file(s) not opened on this client.\n
+w1:/Users/leozhang/Perforce/leozhang1_Leos-MacBook-Pro_leo_build_6370/Assets/Resources/first aid.png.meta - file(s) not on client.\n
+w1:/Users/leozhang/Perforce/leozhang1_Leos-MacBook-Pro_leo_build_6370/Assets/Resources/first aid.png.meta - file(s) not opened on this client.\n
+/Users/leozhang/Perforce/leozhang1_Leos-MacBook-Pro_leo_build_6370/Assets/Resources/pistol2.png.meta - file(s) not on client.
+
+/Users/leozhang/Perforce/leozhang1_Leos-MacBook-Pro_leo_build_6370/Assets/Resources/pistol2.png - file(s) not on client.
+
+/Users/leozhang/Perforce/leozhang1_Leos-MacBook-Pro_leo_build_6370/Assets/Resources/pistol2.png.meta - file(s) not opened on this client.
+
+/Users/leozhang/Perforce/leozhang1_Leos-MacBook-Pro_leo_build_6370/Assets/Resources/pistol2.png - file(s) not opened on this client.
+
+w1:/Users/leozhang/Perforce/leozhang1_Leos-MacBook-Pro_leo_build_6370/Assets/Resources/pistol2.png - file(s) not on client.\n
+w1:/Users/leozhang/Perforce/leozhang1_Leos-MacBook-Pro_leo_build_6370/Assets/Resources/pistol2.png - file(s) not opened on this client.\n
+w1:/Users/leozhang/Perforce/leozhang1_Leos-MacBook-Pro_leo_build_6370/Assets/Resources/pistol2.png.meta - file(s) not on client.\n
+w1:/Users/leozhang/Perforce/leozhang1_Leos-MacBook-Pro_leo_build_6370/Assets/Resources/pistol2.png.meta - file(s) not opened on this client.\n
+/Users/leozhang/Perforce/leozhang1_Leos-MacBook-Pro_leo_build_6370/Assets/Prefabs/UI/Heart Container.prefab - file(s) not on client.
+
+/Users/leozhang/Perforce/leozhang1_Leos-MacBook-Pro_leo_build_6370/Assets/Prefabs/UI/Heart Container.prefab.meta - file(s) not on client.
+
+/Users/leozhang/Perforce/leozhang1_Leos-MacBook-Pro_leo_build_6370/Assets/Resources/UI/HeartEmpty.png - file(s) not on client.
+
+/Users/leozhang/Perforce/leozhang1_Leos-MacBook-Pro_leo_build_6370/Assets/Resources/UI/HeartEmpty.png.meta - file(s) not on client.
+
+/Users/leozhang/Perforce/leozhang1_Leos-MacBook-Pro_leo_build_6370/Assets/Resources/UI/HeartFull.png - file(s) not on client.
+
+/Users/leozhang/Perforce/leozhang1_Leos-MacBook-Pro_leo_build_6370/Assets/Resources/UI/HeartFull.png.meta - file(s) not on client.
+
+/Users/leozhang/Perforce/leozhang1_Leos-MacBook-Pro_leo_build_6370/Assets/Resources/UI/HeartHalf.png - file(s) not on client.
+
+/Users/leozhang/Perforce/leozhang1_Leos-MacBook-Pro_leo_build_6370/Assets/Resources/UI/HeartHalf.png.meta - file(s) not on client.
+
+w1:/Users/leozhang/Perforce/leozhang1_Leos-MacBook-Pro_leo_build_6370/Assets/Prefabs/UI/Heart Container.prefab - file(s) not on client.\n
+w1:/Users/leozhang/Perforce/leozhang1_Leos-MacBook-Pro_leo_build_6370/Assets/Prefabs/UI/Heart Container.prefab.meta - file(s) not on client.\n
+w1:/Users/leozhang/Perforce/leozhang1_Leos-MacBook-Pro_leo_build_6370/Assets/Resources/UI/HeartEmpty.png - file(s) not on client.\n
+w1:/Users/leozhang/Perforce/leozhang1_Leos-MacBook-Pro_leo_build_6370/Assets/Resources/UI/HeartEmpty.png.meta - file(s) not on client.\n
+w1:/Users/leozhang/Perforce/leozhang1_Leos-MacBook-Pro_leo_build_6370/Assets/Resources/UI/HeartFull.png - file(s) not on client.\n
+w1:/Users/leozhang/Perforce/leozhang1_Leos-MacBook-Pro_leo_build_6370/Assets/Resources/UI/HeartFull.png.meta - file(s) not on client.\n
+w1:/Users/leozhang/Perforce/leozhang1_Leos-MacBook-Pro_leo_build_6370/Assets/Resources/UI/HeartHalf.png - file(s) not on client.\n
+w1:/Users/leozhang/Perforce/leozhang1_Leos-MacBook-Pro_leo_build_6370/Assets/Resources/UI/HeartHalf.png.meta - file(s) not on client.\n
+Client 'leozhang1_Leos-MacBook-Pro_leo_build_6370' can only be used from host 'Leos-MacBook-Pro.local'.
+
+Error: Client 'leozhang1_Leos-MacBook-Pro_leo_build_6370' can only be used from host 'Leos-MacBook-Pro.local'.
+
+e32:Client 'leozhang1_Leos-MacBook-Pro_leo_build_6370' can only be used from host 'Leos-MacBook-Pro.local'.\n
+Client 'leozhang1_Leos-MacBook-Pro_leo_build_6370' can only be used from host 'Leos-MacBook-Pro.local'.
+
+Error: Client 'leozhang1_Leos-MacBook-Pro_leo_build_6370' can only be used from host 'Leos-MacBook-Pro.local'.
+
+e32:Client 'leozhang1_Leos-MacBook-Pro_leo_build_6370' can only be used from host 'Leos-MacBook-Pro.local'.\n
+e32:TCP connect to ec2-3-12-102-104.us-east-2.compute.amazonaws.com:1666 failed.\nconnect: 192.168.0.254:1666: Connection refused\n
+/Users/leozhang/Perforce/leozhang1_Leos-MacBook-Pro_leo_build_6370/Assets/craftpix-551899-free-zombie-tds-tilesets-buildings-and-furniture/Tilelists/Tilelist2.5.meta - file(s) not on client.
+
+w1:/Users/leozhang/Perforce/leozhang1_Leos-MacBook-Pro_leo_build_6370/Assets/craftpix-551899-free-zombie-tds-tilesets-buildings-and-furniture/Tilelists/Tilelist2.5.meta - file(s) not on client.\n
+e32:TCP receive failed.\nread: socket: Connection reset by peer\n
+e32:TCP receive failed.\nread: socket: Connection reset by peer\n

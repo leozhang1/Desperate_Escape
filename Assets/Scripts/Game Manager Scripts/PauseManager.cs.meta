@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 5fcce138000291445b3316a9b555febe
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - pauseScreen: {fileID: 541237860246652967, guid: 65b29de8d704a684ba8e6437fbcaad79,
+      type: 3}
+  - pauseButtons: {fileID: 396792666243958024, guid: 0ef13278a0384624c9ee14caa65f0acb,
+      type: 3}
+  - restartPrompt: {fileID: 707352328574345766, guid: 8d2b513b94acad54d96759cec39ed089,
+      type: 3}
+  - quitPrompt: {fileID: 3243517359046432864, guid: 56fb01f32bdd4bf41ae860f1f94638a1,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

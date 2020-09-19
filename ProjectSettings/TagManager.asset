@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Terrorist
+  - wall
+  - bullet
+  - UI
+  - UI Heart
+  - UI Weapon
+  - UI Pause
+  - Intro Text
+  - Grenade
+  - Cutscene Text
+  - Credits
+  - Drop
+  - UI Silencer
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Terrorists
+  - Enemy Bullet
+  - Player
+  - Item
+  - ViewCone
+  - Obstacle
+  - Thrown
+  - Player Bullet
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Foreground
+    uniqueID: 3121820065
+    locked: 0
