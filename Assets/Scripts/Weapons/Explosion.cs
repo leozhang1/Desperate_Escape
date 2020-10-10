@@ -15,7 +15,7 @@ public class Explosion : MonoBehaviour
     {
         float timeActive = 0;
         Animator animator = gameObject.GetComponent<Animator>();
-        Debug.Log(animator.GetCurrentAnimatorStateInfo(0).length);
+        // Debug.Log(animator.GetCurrentAnimatorStateInfo(0).length);
         while (timeActive < animator.GetCurrentAnimatorStateInfo(0).length)
         {
             if (GameObject.Find("Game Manager").GetComponent<LevelManager>().State != LevelManager.LevelState.Gameplay)

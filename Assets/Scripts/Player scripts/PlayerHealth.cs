@@ -57,7 +57,7 @@ public class PlayerHealth : MonoBehaviour
         }
         else
         {
-            Debug.Log("Please set a sprite for fullHeart and/or emptyHeart in the inspector");
+            // Debug.Log("Please set a sprite for fullHeart and/or emptyHeart in the inspector");
             return;
         }
     }

@@ -48,7 +48,7 @@ public class AdvancedFollowPlayer : MonoBehaviour
         }
         else
         {
-            Debug.Log("couldn't complete path calculation");
+            // Debug.Log("couldn't complete path calculation");
         }
     }
 

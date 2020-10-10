@@ -37,6 +37,6 @@ public class WeaponDrop : Item
     protected override void OnPlayerTrigger(GameObject player)
     {
         player.GetComponent<PlayerStats>().LootAmmo(weaponType, Ammo);
-        Debug.Log("Looted " + Ammo + " " + weaponType + " ammo.", this.gameObject);
+        // Debug.Log("Looted " + Ammo + " " + weaponType + " ammo.", this.gameObject);
     }
 }

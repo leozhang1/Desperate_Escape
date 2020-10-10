@@ -43,7 +43,7 @@ public class Cutscene : MonoBehaviour
     private IEnumerator PlayCutscene()
     {
         yield return new WaitForSeconds(0.5f);
-        Debug.Log("Textboxes to display in cutscene: " + texts.Length);
+        // Debug.Log("Textboxes to display in cutscene: " + texts.Length);
         foreach (GameObject textObj in texts)
         {
             Text text = textObj.GetComponent<Text>();

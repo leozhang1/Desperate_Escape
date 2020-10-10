@@ -14,7 +14,7 @@ public class CameraControl : MonoBehaviour
         mainCamera = gameObject.transform;
 
         player = GameObject.Find("Player").GetComponent<Rigidbody2D>();
-        Debug.Log("Player found!");
+        // Debug.Log("Player found!");
         newPos = new Vector3();
     }
 

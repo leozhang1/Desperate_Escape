@@ -7,7 +7,7 @@ public class Particles : MonoBehaviour
     // Start is called before the first frame update
     IEnumerator Start()
     {
-        Debug.Log("Particle spawned.");
+        // Debug.Log("Particle spawned.");
         yield return new WaitForSeconds(gameObject.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).length);
         Destroy(gameObject);
     }

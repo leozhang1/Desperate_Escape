@@ -31,7 +31,7 @@ public class Melee : MonoBehaviour
 
         foreach (Collider2D enemy in enemies)
         {
-            Debug.Log("Hit " + enemy.name);
+            // Debug.Log("Hit " + enemy.name);
 
             // Modifies the script attached to each enemy captured
             // in this array.

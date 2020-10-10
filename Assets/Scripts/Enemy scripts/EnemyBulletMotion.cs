@@ -27,7 +27,7 @@ public class EnemyBulletMotion : MonoBehaviour
     //    target = new Vector2(player.position.x, player.position.y);
 
     //    rb = GetComponent<Rigidbody2D>();
-        
+
     //}
 
     // Update is called once per frame
@@ -58,7 +58,7 @@ public class EnemyBulletMotion : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             // damage the player
-            Debug.Log("Player damaged");
+            // Debug.Log("Player damaged");
             collision.gameObject.GetComponent<PlayerStats>().RestoreHealth(-1);
 
             Destroy(gameObject);

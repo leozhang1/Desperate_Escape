@@ -7,6 +7,6 @@ public class TEST : MonoBehaviour
     [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.AfterSceneLoad)]
     public static void test()
     {
-        Debug.Log("STARTED!!");
+        // Debug.Log("STARTED!!");
     }
 }

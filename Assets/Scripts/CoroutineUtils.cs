@@ -11,7 +11,7 @@ public class CoroutineUtils : MonoBehaviour
     {
         if (fadeIn)
         {
-            Debug.Log("Fading in: " + text.gameObject.name);
+            // Debug.Log("Fading in: " + text.gameObject.name);
             while (text.color.a < 1)
             {
                 text.color = new Color(1f, 1f, 1f, text.color.a + fadeTime);
@@ -20,7 +20,7 @@ public class CoroutineUtils : MonoBehaviour
         }
         else
         {
-            Debug.Log("Fading out: " + text.gameObject.name);
+            // Debug.Log("Fading out: " + text.gameObject.name);
             while (text.color.a > 0)
             {
                 text.color = new Color(1f, 1f, 1f, text.color.a - fadeTime);

@@ -5,14 +5,14 @@ using UnityEngine;
 public class Weapon
 {
     private int ammoStandby;
-    
+
     public Sprite WeaponSprite { get; private set; }
 
     public Type WeaponType { get; private set; }
 
     public int AmmoLoaded { get; private set; }
 
-    public int AmmoStandby 
+    public int AmmoStandby
     {
         get
         {
@@ -23,7 +23,7 @@ public class Weapon
             ammoStandby = value;
             if (ammoStandby > PouchCapacity)
             {
-                Debug.LogWarning("You are taking more ammo than you can hold. " + (ammoStandby - PouchCapacity) + " " + WeaponType + " has been discarded.");
+                // Debug.LogWarning("You are taking more ammo than you can hold. " + (ammoStandby - PouchCapacity) + " " + WeaponType + " has been discarded.");
                 ammoStandby = PouchCapacity;
             }
         }

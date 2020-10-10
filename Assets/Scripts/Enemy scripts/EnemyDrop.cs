@@ -13,19 +13,19 @@ public class EnemyDrop : MonoBehaviour
     {
         if (pistolDropWeight < 0)
         {
-            Debug.LogWarning("Pistol drop weight cannot be below 0. Setting it to 0!");
+            // Debug.LogWarning("Pistol drop weight cannot be below 0. Setting it to 0!");
             pistolDropWeight = 0;
         }
 
         if (grenadeDropWeight < 0)
         {
-            Debug.LogWarning("Grenade drop weight cannot be below 0. Setting it to 0!");
+            // Debug.LogWarning("Grenade drop weight cannot be below 0. Setting it to 0!");
             grenadeDropWeight = 0;
         }
 
         if (noDropWeight < 0)
         {
-            Debug.LogWarning("Drop nothing weight cannot be below 0. Setting it to 0!");
+            // Debug.LogWarning("Drop nothing weight cannot be below 0. Setting it to 0!");
             noDropWeight = 0;
         }
     }
@@ -45,15 +45,17 @@ public class EnemyDrop : MonoBehaviour
         if (isGuaranteedDrop || rng < pistolDropIndex)
         {
             GameObject pistol = Instantiate(pistolPrefab, itemDropPosition, pistolPrefab.GetComponent<Transform>().rotation, itemsBranch);
-            Debug.Log("Dropped a pistol with " + pistol.GetComponent<WeaponDrop>().Ammo + " ammo.");
+            // Debug.Log("Dropped a pistol with " + pistol.GetComponent<WeaponDrop>().Ammo + " ammo.");
         }
         else if (rng < grenadeDropIndex)
         {
             GameObject grenade = Instantiate(grenadePrefab, itemDropPosition, grenadePrefab.GetComponent<Transform>().rotation, itemsBranch);
-            Debug.Log("Dropped a grenade.");
+            // Debug.Log("Dropped a grenade.");
         }
         else
-            Debug.Log("No weapon has been dropped.");
+        {
+            // Debug.Log("No weapon has been dropped.");
+        }
     }
 
     private void CalculateWeights()
@@ -90,9 +92,9 @@ public class EnemyDrop : MonoBehaviour
         grenadeDropWeight /= totalWeight;
         noDropWeight /= totalWeight;
 
-        Debug.Log("Pistol Drop Weight: " + pistolDropWeight, this);
-        Debug.Log("Grenade Drop Weight: " + grenadeDropWeight, this);
-        Debug.Log("Drop Nothing Weight: " + noDropWeight, this);
+        // Debug.Log("Pistol Drop Weight: " + pistolDropWeight, this);
+        // Debug.Log("Grenade Drop Weight: " + grenadeDropWeight, this);
+        // Debug.Log("Drop Nothing Weight: " + noDropWeight, this);
 
         //Set drop indexes for RNG drops.
         pistolDropIndex = pistolDropWeight;

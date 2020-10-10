@@ -15,7 +15,7 @@ public class Grenade : MonoBehaviour
 
         rb = gameObject.GetComponent<Rigidbody2D>();
         animator.speed = rb.velocity.magnitude;
-        Debug.Log(rb.rotation);
+        // Debug.Log(rb.rotation);
 
         StartCoroutine(Explode(DataDriven.GrenadeTimer));
     }
@@ -49,7 +49,7 @@ public class Grenade : MonoBehaviour
             raycast = Physics2D.Raycast(gameObject.transform.position, player.transform.position - gameObject.transform.position, DataDriven.GrenadeRadius, LayerMask.GetMask("Player", "Obstacle"));
             //Layer 13 is Obstacle.
             if (raycast.collider != null)
-                Debug.Log(player.name + " : " + raycast.collider.gameObject.name);
+                // Debug.Log(player.name + " : " + raycast.collider.gameObject.name);
             if (raycast.collider == null || raycast.collider.gameObject.layer != 13)
             {
                 damage = CalculateDamage(player);
@@ -65,7 +65,7 @@ public class Grenade : MonoBehaviour
             raycast = Physics2D.Raycast(gameObject.transform.position, terrorist.transform.position - gameObject.transform.position, DataDriven.GrenadeRadius, LayerMask.GetMask("Terrorists", "Obstacle"));
             //Layer 13 is Obstacle.
             if (raycast.collider != null)
-                Debug.Log(terrorist.name + " : " + raycast.collider.gameObject.name);
+                // Debug.Log(terrorist.name + " : " + raycast.collider.gameObject.name);
             if (raycast.collider == null || raycast.collider.gameObject.layer != 13)
             {
                 damage = CalculateDamage(terrorist);

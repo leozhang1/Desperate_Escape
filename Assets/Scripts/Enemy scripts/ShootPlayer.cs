@@ -28,7 +28,7 @@ public class ShootPlayer : MonoBehaviour
         {
             if (enemyBullet != null)
             {
-                Debug.Log("SHOOTING PLAYER");
+                // Debug.Log("SHOOTING PLAYER");
                 GameObject bullet = Instantiate(enemyBullet, firePoint.position, firePoint.transform.rotation);
                 Physics2D.IgnoreCollision(bullet.GetComponent<Collider2D>(), GetComponent<Collider2D>());
                 Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();

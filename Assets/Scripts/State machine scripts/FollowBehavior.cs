@@ -35,7 +35,7 @@ public class FollowBehavior : StateMachineBehaviour
     {
         if (val != -1 && val != 1)
         {
-            Debug.LogError("Please enter either -1 or 1 as input to this method");
+            // Debug.LogError("Please enter either -1 or 1 as input to this method");
             return;
         }
 

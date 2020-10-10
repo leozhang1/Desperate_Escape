@@ -51,7 +51,7 @@ public class AdvancedPatrol : MonoBehaviour
         // may need to change this condition to check for how close the enemy is to the current waypoint DONE
         if (seeker.IsDone())
         {
-            Debug.Log("wayPointIndex: " + wayPointIndex);
+            // Debug.Log("wayPointIndex: " + wayPointIndex);
 
             // wait for couple seconds
             //StartCoroutine(IdleEnemy());
@@ -59,7 +59,7 @@ public class AdvancedPatrol : MonoBehaviour
         }
         else
         {
-            Debug.Log(wayPointIndex % wayPoints.Length + " is not reached yet");
+            // Debug.Log(wayPointIndex % wayPoints.Length + " is not reached yet");
         }
     }
 
@@ -78,7 +78,7 @@ public class AdvancedPatrol : MonoBehaviour
         }
         else
         {
-            Debug.Log("couldn't complete path calculation");
+            // Debug.Log("couldn't complete path calculation");
         }
     }
 

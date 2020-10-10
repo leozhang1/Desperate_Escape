@@ -18,10 +18,10 @@ public class EnemyHealth : MonoBehaviour
     public float detectionRadius = 20f;
     public LayerMask enemyLayers;
 
-    // Start is called before the first frame update
     void Start()
     {
         Health = maxHealth;
+        Physics2D.queriesStartInColliders = false;
     }
 
     private void OnDrawGizmosSelected()
@@ -37,18 +37,18 @@ public class EnemyHealth : MonoBehaviour
         {
             Health -= damage;
 
+            // Tell all your friends you're about to die, so they'll avenge you
+            Collider2D[] enemyBros = Physics2D.OverlapCircleAll(transform.position,
+                                        detectionRadius, enemyLayers);
+
+            foreach (Collider2D enemy in enemyBros)
+            {
+                enemy.GetComponent<EnemyBrains>().avengeMyBro = true;
+                print(enemy.name);
+            }
+
             if (Health <= 0)
             {
-                // Tell all your friends you're about to die, so they'll avenge you
-                Collider2D[] enemyBros = Physics2D.OverlapCircleAll(transform.position,
-                                            detectionRadius, enemyLayers);
-
-                foreach (Collider2D enemy in enemyBros)
-                {
-                    enemy.GetComponent<EnemySight>().avengeMyBro = true;
-                    //if (enemyBros.Length > 1)
-                    //    Debug.Log(gameObject.name + "has " + (enemyBros.Length - 1) + " bros near it.");
-                }
                 Die();
             }
             else
@@ -60,7 +60,7 @@ public class EnemyHealth : MonoBehaviour
 
     private void Die()
     {
-        Debug.Log("Killed " + gameObject.name);
+        // Debug.Log("Killed " + gameObject.name);
 
         // spawns a weapon at the enemy position right before destroying the enemy
         GetComponent<EnemyDrop>().OnDeath();

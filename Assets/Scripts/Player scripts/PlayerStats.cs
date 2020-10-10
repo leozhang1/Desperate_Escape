@@ -52,7 +52,7 @@ public class PlayerStats : MonoBehaviour
                 health = 0;
                 Particles.Spawn(gameObject, Particles.Type.BloodHeavy, Vector3.zero);
                 Destroy(gameObject);
-                Debug.Log("Player has died. Triggering game over.");
+                // Debug.Log("Player has died. Triggering game over.");
 
                 //Get number of terrorists chasing player.
                 GameObject[] terrorists = GameObject.FindGameObjectsWithTag("Terrorist");
@@ -116,14 +116,14 @@ public class PlayerStats : MonoBehaviour
         if (!IsAnimating && CurrentWeapon != null)
         {
             IsAnimating = true;
-            Debug.Log("Reloading...");
+            // Debug.Log("Reloading...");
             animator.SetTrigger("Reload");
             aManager.PlaySound(AudioManager.SoundEffect.Reload);
             yield return new WaitForSeconds(CurrentWeapon.ReloadTime);
             CurrentWeapon.Reload();
             IsAnimating = false;
-            Debug.Log("Done reloading!");
-        } 
+            // Debug.Log("Done reloading!");
+        }
     }
 
     public void CycleWeapon(bool useNext)
@@ -139,7 +139,7 @@ public class PlayerStats : MonoBehaviour
     }
 
     /*
-     * 
+     *
      */
     public void LootAmmo(Weapon.Type weapon, int ammo)
     {

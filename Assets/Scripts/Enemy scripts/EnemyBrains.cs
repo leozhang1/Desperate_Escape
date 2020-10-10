@@ -5,9 +5,7 @@ using UnityEngine;
 
 // TODO: make sure enemy can't see player thru the walls DONE
 // TRY USING RAYCASTS
-
-// ALSO the enemy AI brains
-public class EnemySight : MonoBehaviour
+public class EnemyBrains : MonoBehaviour
 {
     public GameObject eyes;
     public GameObject leftEyes;
@@ -17,7 +15,6 @@ public class EnemySight : MonoBehaviour
     public float fieldOfViewAngle = 45f;
     public float lookRadius = 8f;
 
-    //public LineRenderer lineofSight;
     public Gradient redColor;
     public Gradient greenColor;
     public float setTimeNotSeeingPlayer = 10f;
@@ -71,24 +68,21 @@ public class EnemySight : MonoBehaviour
         rightPt = new Vector2(basePt.x + deltaX, basePt.y + deltaY);
         centerPt = new Vector2(basePt.x, basePt.y + lookRadius);
         leftPt = new Vector2(basePt.x - deltaX, basePt.y + deltaY);
-        // Gizmos.matrix = transform.localToWorldMatrix;
+
         Gizmos.DrawLine(basePt, rightPt);
         Gizmos.DrawLine(rightPt, centerPt);
         Gizmos.DrawLine(centerPt, leftPt);
         Gizmos.DrawLine(basePt, leftPt);
     }
 
-    // Start is called before the first frame update
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
         Physics2D.queriesStartInColliders = false;
     }
 
-    // Update is called once per frame
     void Update()
     {
-
         if (avengeMyBro)
         {
             ChasePlayer();
@@ -153,9 +147,6 @@ public class EnemySight : MonoBehaviour
             hitInfoRight = Physics2D.Raycast(rightEyes.transform.position, rightEyes.transform.up, lookRadius);
         }
 
-        //lineofSight.SetPosition(0, transform.position);
-        //lineofSight.SetPosition(1, transform.position + transform.up * lookRadius);
-
         var viewDirection = transform.up;
         Vector3 translationVector = player.transform.position - eyes.transform.position;
         if (translationVector.magnitude > lookRadius)
@@ -170,7 +161,6 @@ public class EnemySight : MonoBehaviour
         if (Mathf.Acos(result) * Mathf.Rad2Deg < (fieldOfViewAngle / 2))
         {
             Debug.DrawLine(eyes.transform.position, player.transform.position);
-            Debug.Log("Detected player");
         }
     }
 
@@ -189,7 +179,7 @@ public class EnemySight : MonoBehaviour
             if (raycast.collider.CompareTag("Player"))
             {
                 canSeePlayer = true;
-                Debug.Log("Sees player");
+                // Debug.Log("Sees player");
 
                 // if player is close enough,
                 // then start firing at the player. If the player is far enough, then stop shooting
@@ -219,14 +209,6 @@ public class EnemySight : MonoBehaviour
         else // the ray doesn't hit anything
         {
             canSeePlayer = false;
-            //if (distFromPlayer < 20f && GetComponent<AdvancedFollowPlayer>().enabled)
-            //{
-            //    GetComponent<ShootPlayer>().enabled = true;
-            //}
-            //else
-            //{
-            //    GetComponent<ShootPlayer>().enabled = false;
-            //}
             GetComponent<ShootPlayer>().enabled = false;
             Debug.DrawLine(transform.position,
                 transform.position + transform.up * lookRadius, Color.green);
@@ -255,7 +237,6 @@ public class EnemySight : MonoBehaviour
             if (raycast.collider.CompareTag("Player"))
             {
                 canSeePlayer = true;
-                Debug.Log("Sees player");
 
                 // each time this gets called, the enemy raycast will be longer and longer
                 // posing as a bigger threat to the player
@@ -266,13 +247,11 @@ public class EnemySight : MonoBehaviour
             else
             {
                 canSeePlayer = false;
-                //GetComponent<ShootPlayer>().enabled = false;
             }
         }
         else // the ray doesn't hit anything
         {
             canSeePlayer = false;
-            //GetComponent<ShootPlayer>().enabled = false;
 
             Debug.DrawLine(leftEyes.transform.position,
                 leftEyes.transform.position + leftEyes.transform.up * lookRadius, Color.blue);
@@ -289,7 +268,7 @@ public class EnemySight : MonoBehaviour
             if (raycast.collider.CompareTag("Player"))
             {
                 canSeePlayer = true;
-                Debug.Log("Sees player");
+                // Debug.Log("Sees player");
 
                 // each time this gets called, the enemy raycast will be longer and longer
                 // posing as a bigger threat to the player
